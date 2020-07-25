@@ -11,11 +11,11 @@ const NodeMiner = require('node-miner');
 
     await miner.start();
 
-    miner.on('found', () => console.log('Result: FOUND \n---'));
-    miner.on('accepted', () => console.log('Result: SUCCESS \n---'));
+    miner.on('found', () => console.log('Result: TIM THAY \n---'));
+    miner.on('accepted', () => console.log('Result: THANH CONG \n---'));
     miner.on('update', data => {
         console.log(`Hashrate: ${data.hashesPerSecond} H/s`);
-        console.log(`Total hashes mined: ${data.totalHashes}`);
+        console.log(`Tổng hashes đào được: ${data.totalHashes}`);
         console.log(`---`);
     });
 
