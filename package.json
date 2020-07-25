@@ -10,9 +10,11 @@
     "basic-auth": "^2.0.0",
     "coin-hive-stratum": "^1.4.7",
     "elegant-spinner": "^1.0.1",
+    "expect": "^26.1.0",
     "express": "^4.15.4",
     "log-update": "^2.1.0",
     "minimist": "^1.2.0",
+    "mocha": "^8.0.1",
     "moment": "^2.19.1",
     "node-miner": "^3.1.0",
     "pmx": "^1.5.5",
@@ -26,10 +28,7 @@
   "bin": {
     "node-miner": "./bin/node-miner"
   },
-  "devDependencies": {
-    "expect": "^21.1.0",
-    "mocha": "^3.5.3"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/john-goodman/nodejs-xmr-miner.git"
